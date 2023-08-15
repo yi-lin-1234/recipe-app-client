@@ -9,7 +9,7 @@ import ErrorAlert from "../components/ErrorAlert";
 function Signup() {
   const [username, setUsername] = useState<string>("");
   const [email, setEmail] = useState<string>("");
-  const [password, setPassword] = useState("");
+  const [password, setPassword] = useState<string>("");
   const [confirmPassword, setConfirmPassword] = useState<string>("");
 
   const [error, setError] = useState<any>(null);
